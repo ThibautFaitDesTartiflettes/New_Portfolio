@@ -2,8 +2,9 @@
 
 namespace App\Http\Controllers;
 
-class AppController extends Controllers{
-    public function show(){
+
+class AppController extends Controller{
+    public function index(){
         return view('home');
     }
 }
