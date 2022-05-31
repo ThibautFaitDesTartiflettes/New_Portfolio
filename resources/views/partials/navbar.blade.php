@@ -7,7 +7,7 @@
             <a class="mr-5 hover:text-orange-600 hover:underline transition duration-300 ease-in-out">About me</a>
             <a class="mr-5 hover:text-orange-600 hover:underline transition duration-300 ease-in-out">Projects</a>
             <a class="mr-5 hover:text-orange-600 hover:underline transition duration-300 ease-in-out">Internships & Jobs</a>
-            <a class="mr-5 hover:text-orange-600 hover:underline transition duration-300 ease-in-out">Contact me</a>
+            <a class="mr-5 hover:text-orange-600 hover:underline transition duration-300 ease-in-out" href="{{ route('contact') }}">Contact me</a>
         </nav>
     </div>
 </header>
