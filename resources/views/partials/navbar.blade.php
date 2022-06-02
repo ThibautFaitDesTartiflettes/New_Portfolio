@@ -4,7 +4,7 @@
             <span class="ml-3 text-xl">Thibaut Meslin</span>
         </a>
         <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center cursor-pointer">
-            <a class="mr-5 hover:text-orange-600 hover:underline transition duration-300 ease-in-out">About me</a>
+            <a class="mr-5 hover:text-orange-600 hover:underline transition duration-300 ease-in-out" href="{{ route('about') }}">About me</a>
             <a class="mr-5 hover:text-orange-600 hover:underline transition duration-300 ease-in-out">Projects</a>
             <a class="mr-5 hover:text-orange-600 hover:underline transition duration-300 ease-in-out">Internships & Jobs</a>
             <a class="mr-5 hover:text-orange-600 hover:underline transition duration-300 ease-in-out" href="{{ route('contact') }}">Contact me</a>

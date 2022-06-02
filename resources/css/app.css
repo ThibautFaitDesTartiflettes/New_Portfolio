@@ -14,3 +14,11 @@
     background: #ea580c;
     border-radius: 100vh;
 }
+
+.bar{
+    height: 2px;
+    width: 100%;
+    border-radius: 100vh;
+    margin: 10% auto;
+    background: #ea580c;
+}
