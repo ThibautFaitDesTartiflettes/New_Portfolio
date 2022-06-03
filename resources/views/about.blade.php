@@ -104,7 +104,13 @@
                         </ul>
                         <div class="bar"></div>
                         <h1 class="max-w-lg mb-6 font-sans text-3xl font-bold tracking-tight sm:text-4xl sm:leading-none">My <font color="#ea580c">curriculum vitae</font></h1>
-                        <button class="flex mt-10 mx-auto text-white bg-orange-600 border-0 py-2 px-8 focus:outline-none hover:bg-orange-700 rounded text-lg" onclick=window.location.href="documents/Resume.pdf">Download it!</button>
+                        <div class="p-2 w-full">
+                            <button class="flex mt-2 mx-auto text-white bg-orange-600 border-0 py-4 px-20 focus:outline-none hover:bg-orange-700 rounded text-lg" onclick=window.location.href="documents/Resume.pdf">Download it!
+                                <svg class="mt-0.5" width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill="#ffffff" d="m9.001 13.022h-3.251c-.412 0-.75.335-.75.752 0 .188.071.375.206.518 1.685 1.775 4.692 4.945 6.069 6.396.189.2.452.312.725.312.274 0 .536-.112.725-.312 1.377-1.451 4.385-4.621 6.068-6.396.136-.143.207-.33.207-.518 0-.417-.337-.752-.75-.752h-3.251v-9.02c0-.531-.47-1.002-1-1.002h-3.998c-.53 0-1 .471-1 1.002zm4.498-8.522v10.022h3.008l-4.507 4.751-4.507-4.751h3.008v-10.022z" fill-rule="nonzero"/>
+                                </svg>
+                            </button>
+                        </div>
                     </div>
                 </div>
                 <div class="flex items-center justify-center lg:fixed lg:right-16 -mx-4 lg:pl-8">
