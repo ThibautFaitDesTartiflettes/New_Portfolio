@@ -22,3 +22,11 @@
     margin: 10% auto;
     background: #ea580c;
 }
+
+.bar2{
+    height: 2px;
+    width: 100%;
+    border-radius: 100vh;
+    margin: 5% auto;
+    background: #ea580c;
+}
