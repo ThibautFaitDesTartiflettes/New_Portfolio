@@ -27,13 +27,13 @@
                             <div class="w-14 h-14 bg-stone-800 rounded-lg m-2 p-2">
                                 <img src="img/svg/programming_lang/java.svg" alt="Java">
                             </div>
-                            <div class="w-14 h-14 bg-stone-800 rounded-lg m-2 p-2">
+                            <div class="w-14 h-14 bg-stone-800 rounded-lg my-2 mx-0 p-2">
                                 <img src="img/svg/programming_lang/soapui.svg" alt="SoapUi">
                             </div>
                             <div class="w-14 h-14 bg-stone-800 rounded-lg m-2 p-2">
                                 <img src="img/svg/programming_lang/kubernetes.svg" alt="Kubernetes">
                             </div>
-                            <div class="w-14 h-14 bg-stone-800 rounded-lg m-2 p-2">
+                            <div class="w-14 h-14 bg-stone-800 rounded-lg my-2 mx-0 p-2">
                                 <img src="img/svg/programming_lang/jenkins.svg" alt="Jenkins">
                             </div>
                         </div>
