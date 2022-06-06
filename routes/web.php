@@ -5,6 +5,7 @@ use App\Http\Controllers\AppController;
 use App\Http\Controllers\AboutController;
 use App\Http\Controllers\ContactController;
 use App\Http\Controllers\InternshipsJobsController;
+use App\Http\Controllers\ProjectsController;
 
 /*
 |--------------------------------------------------------------------------
@@ -20,6 +21,8 @@ use App\Http\Controllers\InternshipsJobsController;
 Route::get('/', [AppController::class, 'index'])->name('home');
 
 Route::get('/about', [AboutController::class, 'index'])->name('about');
+
+Route::get('/projects', [ProjectsController::class, 'index'])->name('projects');
 
 Route::get('/internships-jobs', [InternshipsJobsController::class, 'index'])->name('internships-jobs');
 

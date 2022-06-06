@@ -12,7 +12,7 @@
                     <br>Don't hesitate to <strong>contact me</strong> at any time, I'm always up for something new!</p>
                 <div class="flex justify-center">
                     <button class="inline-flex text-white bg-orange-600 border-0 py-2 px-6 focus:outline-none hover:bg-orange-700 rounded text-lg transition duration-300 ease-in-out" onclick=window.location.href="{{ route('about') }}">Who am I ?</button>
-                    <button class="ml-4 inline-flex text-white bg-orange-600 border-0 py-2 px-6 focus:outline-none hover:bg-orange-700 rounded text-lg transition duration-300 ease-in-out">My projects</button>
+                    <button class="ml-4 inline-flex text-white bg-orange-600 border-0 py-2 px-6 focus:outline-none hover:bg-orange-700 rounded text-lg transition duration-300 ease-in-out" onclick=window.location.href="{{ route('projects') }}">My projects</button>
                 </div>
             </div>
             <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
