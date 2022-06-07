@@ -15,11 +15,8 @@
                     <button class="ml-4 inline-flex text-white bg-orange-600 border-0 py-2 px-6 focus:outline-none hover:bg-orange-700 rounded text-lg transition duration-300 ease-in-out">My projects</button>
                 </div>
             </div>
-            <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-                <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-                    <path fill="#ea580c" d="M42.2,-53.3C53.6,-40.6,61.3,-26.4,67.5,-9.3C73.6,7.9,78.3,27.9,71,41.4C63.7,54.9,44.4,61.9,25.9,66.7C7.5,71.4,-10.2,73.9,-28.6,70.7C-47,67.4,-66.3,58.4,-72,43.8C-77.7,29.3,-69.8,9.2,-64.6,-9.8C-59.4,-28.8,-56.7,-46.6,-46.4,-59.5C-36.1,-72.4,-18,-80.4,-1.3,-78.8C15.3,-77.2,30.7,-66,42.2,-53.3Z" transform="translate(100 100)" />
-                </svg>
-                <img class="absolute lg:-mt-[450px] lg:-ml-[90px]" alt="Profile picture" src="img/pp.png">
+            <div class="lg:max-w-lg lg:w-full md:w-1/2 w-4/6">
+                <img class="object-cover object-center md:-ml-8" alt="Profile picture" src="img/pp_modif.png">
             </div>
         </div>
     </section>
