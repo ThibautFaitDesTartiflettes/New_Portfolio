@@ -341,7 +341,7 @@
                                     <p class="text-xs font-semibold text-orange-600 tracking-wide uppercase transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800" aria-label="Category" title="Networking">Networking</p>
                                 </div>
                                 <div class="mb-2">
-                                    <p aria-label="Article" class="inline-block text-2xl font-bold leading-5 text-white transition-colors duration-200 hover:text-deep-purple-accent-400">Normandie presse</p>
+                                    <p aria-label="Article" class="inline-block text-2xl font-bold leading-5 text-white transition-colors duration-200 hover:text-deep-purple-accent-400">Admin-sys</p>
                                 </div>
                                 <p class="mb-1 text-white">
                                     Create the all infrastructure for a company (DMZ, LAN, Firewall, AD/DS, DNS, ...).
