@@ -4,7 +4,7 @@
     <section class="text-white bg-stone-900 body-font relative">
         <form action="{{ route('send') }}" method="post" id="contact-from">
             {{ csrf_field() }}
-            <div class="container px-5 py-24 mx-auto">
+            <div class="animate__animated animate__fadeIn animate__slow container px-5 py-24 mx-auto">
                 <div class="flex flex-col text-center w-full mb-12">
                     <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4">Contact me</h1>
                     <p class="lg:w-2/3 mx-auto leading-relaxed text-base">Contact me for <strong>anything</strong> you want, I will answer back the fastest I can ! <br> I am available for <strong>work</strong>, <strong>internships</strong>, <strong>problems</strong>, <strong>order</strong>, <strong>etc</strong>...</p>

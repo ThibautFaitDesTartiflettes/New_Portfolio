@@ -5,11 +5,11 @@
         <div class="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
             <h1 class="title-font sm:text-4xl text-3xl mb-16 font-medium text-white">My <span class="text-orange-600">Internships</h1>
             <div class="flex flex-col items-center justify-between lg:flex-row">
-                <div class="relative lg:w-1/2">
+                <div class="animate__animated animate__fadeIn animate__slow relative lg:w-1/2">
                     <img class="object-cover w-full h-32 rounded shadow-lg sm:h-96 saturate-[0] m-[20px]" src="img/bdf.jpg" alt="BanqueDeFrance"/>
                 </div>
                 <div class="mb-10 lg:max-w-lg lg:pr-5 lg:mb-0">
-                    <div class="max-w-xl mb-6">
+                    <div class="animate__animated animate__fadeInRight max-w-xl mb-6">
                         <img class="float-left mr-2" src="img/svg/bank.svg" style="width: 36px; height:36px" alt="Bank">
                         <h2 class="max-w-lg mb-6 font-sans text-3xl font-bold tracking-tight sm:text-4xl sm:leading-none"> - Banque de France</h2>
                         <p class="text-base leading-relaxed -mt-4 ml-5"><span class="underline decoration-orange-600">Full stack developer</span> | January 2022 - April 2022</p>
@@ -20,7 +20,7 @@
                         Implement more methods on the front-end side to communicate with the back-end in order to retrieve the file and offer it for download. 
                         I was working in a CICD context and AGILE methods. 
                         </p>
-                        <div class="container flex flex-wrap w-full">
+                        <div class="animate__animated animate__fadeIn animate__delay-1s container flex flex-wrap w-full">
                             <div class="w-14 h-14 bg-stone-800 rounded-lg my-2 p-2">
                                 <img src="img/svg/programming_lang/angular.svg" alt="Angular">
                             </div>
@@ -37,7 +37,7 @@
                                 <img src="img/svg/programming_lang/jenkins.svg" alt="Jenkins">
                             </div>
                         </div>
-                        <button class="flex mt-2 text-white bg-orange-600 border-0 py-2 px-10 focus:outline-none hover:bg-orange-700 rounded text-lg" onclick=window.location.href="documents/bdf_report_fr.pdf">Report
+                        <button class="animate__animated animate__fadeIn animate__delay-2s flex mt-2 text-white bg-orange-600 border-0 py-2 px-10 focus:outline-none hover:bg-orange-700 rounded text-lg" onclick=window.location.href="documents/bdf_report_fr.pdf">Report
                             <svg class="mt-0.5" width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                 <path fill="#ffffff" d="m9.001 13.022h-3.251c-.412 0-.75.335-.75.752 0 .188.071.375.206.518 1.685 1.775 4.692 4.945 6.069 6.396.189.2.452.312.725.312.274 0 .536-.112.725-.312 1.377-1.451 4.385-4.621 6.068-6.396.136-.143.207-.33.207-.518 0-.417-.337-.752-.75-.752h-3.251v-9.02c0-.531-.47-1.002-1-1.002h-3.998c-.53 0-1 .471-1 1.002zm4.498-8.522v10.022h3.008l-4.507 4.751-4.507-4.751h3.008v-10.022z" fill-rule="nonzero"/>
                             </svg>
@@ -47,8 +47,8 @@
             </div>
             <div class="flex flex-col items-center justify-between lg:flex-row mt-24">
                 <div class="mb-10 lg:max-w-lg lg:pr-5 lg:mb-0">
-                    <div class="max-w-xl mb-6">
-                        <img class="float-left mr-2" src="img/svg/buildings.svg" style="width: 36px; height:36px" alt="Buildings">
+                    <div class="animate__animated animate__fadeInLeft max-w-xl mb-6">
+                        <img class="animate__animated animate__fadeIn animate__slow float-left mr-2" src="img/svg/buildings.svg" style="width: 36px; height:36px" alt="Buildings">
                         <h2 class="max-w-lg mb-6 font-sans text-3xl font-bold tracking-tight sm:text-4xl sm:leading-none"> - Schneider Electric</h2>
                         <p class="text-base leading-relaxed -mt-4 ml-5"><span class="underline decoration-orange-600">Software developer</span> | January 2021 - February 2021</p>
                         <br>
@@ -57,7 +57,7 @@
                         This project takes place in the "smart city" context with the aim of making eco-friendly buildings. 
                         I developed a functionality that track down every recommendation made by the app.
                         </p>
-                        <div class="container flex flex-wrap w-full">
+                        <div class="animate__animated animate__fadeIn animate__delay-1s container flex flex-wrap w-full">
                             <div class="w-14 h-14 bg-stone-800 rounded-lg my-2 p-2">
                                 <img src="img/svg/programming_lang/c_sharp.svg" alt="C#">
                             </div>
@@ -65,7 +65,7 @@
                                 <img src="img/svg/programming_lang/json.svg" alt="JSON">
                             </div>
                         </div>
-                        <button class="flex mt-2 text-white bg-orange-600 border-0 py-2 px-10 focus:outline-none hover:bg-orange-700 rounded text-lg" onclick=window.location.href="documents/se_report_fr.pdf">Report
+                        <button class="animate__animated animate__fadeIn animate__delay-2s flex mt-2 text-white bg-orange-600 border-0 py-2 px-10 focus:outline-none hover:bg-orange-700 rounded text-lg" onclick=window.location.href="documents/se_report_fr.pdf">Report
                             <svg class="mt-0.5" width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                 <path fill="#ffffff" d="m9.001 13.022h-3.251c-.412 0-.75.335-.75.752 0 .188.071.375.206.518 1.685 1.775 4.692 4.945 6.069 6.396.189.2.452.312.725.312.274 0 .536-.112.725-.312 1.377-1.451 4.385-4.621 6.068-6.396.136-.143.207-.33.207-.518 0-.417-.337-.752-.75-.752h-3.251v-9.02c0-.531-.47-1.002-1-1.002h-3.998c-.53 0-1 .471-1 1.002zm4.498-8.522v10.022h3.008l-4.507 4.751-4.507-4.751h3.008v-10.022z" fill-rule="nonzero"/>
                             </svg>
@@ -79,11 +79,11 @@
             <div class="bar2"></div>
             <h1 class="title-font sm:text-4xl text-3xl mb-16 font-medium text-white">My <span class="text-orange-600">Jobs</h1>
             <div class="flex flex-col items-center justify-between lg:flex-row">
-                <div class="relative lg:w-1/2">
+                <div class="animate__animated animate__fadeIn animate__slow relative lg:w-1/2">
                     <img class="object-cover w-full h-48 rounded shadow-lg sm:h-96 saturate-[0] m-[20px]" src="img/tcp.jpg" alt="TennisClubPacy"/>
                 </div>
                 <div class="mb-10 lg:max-w-lg lg:pr-5 lg:mb-0">
-                    <div class="max-w-xl mb-6">
+                    <div class="animate__animated animate__fadeInRight max-w-xl mb-6">
                         <img class="float-left mr-2" src="img/svg/tennis_player.svg" style="width: 36px; height:36px" alt="TennisPlayer">
                         <h2 class="max-w-lg mb-6 font-sans text-3xl font-bold tracking-tight sm:text-4xl sm:leading-none"> - Tennis club de Pacy</h2>
                         <p class="text-base leading-relaxed -mt-4 ml-5"><span class="underline decoration-orange-600">Tennis coach</span> | September 2020 - Now</p>

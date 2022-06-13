@@ -522,6 +522,9 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-left: 4rem;
   margin-right: 4rem;
 }
+.ml-5 {
+  margin-left: 1.25rem;
+}
 .mb-6 {
   margin-bottom: 1.5rem;
 }
@@ -566,9 +569,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 .-mt-4 {
   margin-top: -1rem;
-}
-.ml-5 {
-  margin-left: 1.25rem;
 }
 .mt-24 {
   margin-top: 6rem;
@@ -678,8 +678,8 @@ Ensure the default browser behavior of the `hidden` attribute.
 .w-6 {
   width: 1.5rem;
 }
-.w-5\/6 {
-  width: 83.333333%;
+.w-4\/6 {
+  width: 66.666667%;
 }
 .w-14 {
   width: 3.5rem;
@@ -690,9 +690,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 .w-5 {
   width: 1.25rem;
 }
-.w-4\/6 {
-  width: 66.666667%;
-}
 .max-w-xl {
   max-width: 36rem;
 }
@@ -701,33 +698,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 .max-w-sm {
   max-width: 24rem;
-}
-.transform {
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-@-webkit-keyframes fadeOut {
-
-  0% {
-    background-color: #292524;
-  }
-
-  100% {
-    background-color: transparent;
-  }
-}
-@keyframes fadeOut {
-
-  0% {
-    background-color: #292524;
-  }
-
-  100% {
-    background-color: transparent;
-  }
-}
-.animate-fade {
-  -webkit-animation: fadeOut 2s ease-in-out;
-          animation: fadeOut 2s ease-in-out;
 }
 .cursor-pointer {
   cursor: pointer;
@@ -1088,6 +1058,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+body{
+    overflow-x: hidden;
+}
+
 ::-webkit-scrollbar {
     width: 5px;
 }
@@ -1265,12 +1239,12 @@ Ensure the default browser behavior of the `hidden` attribute.
     margin-bottom: 0px;
   }
 
-  .md\:ml-auto {
-    margin-left: auto;
-  }
-
   .md\:-ml-8 {
     margin-left: -2rem;
+  }
+
+  .md\:ml-auto {
+    margin-left: auto;
   }
 
   .md\:w-2\/3 {
@@ -1323,14 +1297,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .lg\:right-16 {
     right: 4rem;
-  }
-
-  .lg\:-mt-\[450px\] {
-    margin-top: -450px;
-  }
-
-  .lg\:-ml-\[90px\] {
-    margin-left: -90px;
   }
 
   .lg\:mb-0 {

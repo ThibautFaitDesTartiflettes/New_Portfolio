@@ -5,7 +5,7 @@
         <div class="container px-5 py-24 mx-auto">
             <div class="grid gap-10 lg:grid-cols-2">
                 <div class="flex flex-col justify-center md:pr-8 xl:pr-0 lg:max-w-lg">
-                    <div class="max-w-xl mb-6">
+                    <div class="animate__animated animate__fadeInLeft animate__slow ml-5 max-w-xl mb-6">
                         <h1 class="max-w-lg mb-6 font-sans text-3xl font-bold tracking-tight sm:text-4xl sm:leading-none">It's a me <font color="#ea580c">Thibaut</font> !</h1>
                         <p class="mb-8 leading-relaxed">
                         My name is <strong>Thibaut Meslin</strong> and I'm <strong>20</strong> years old. 
@@ -115,11 +115,11 @@
                 </div>
                 <div class="flex items-center justify-center lg:fixed lg:right-16 -mx-4 lg:pl-8">
                     <div class="flex flex-col items-end px-3">
-                        <img class="object-cover mb-6 rounded shadow-lg h-28 sm:h-48 xl:h-56 w-28 sm:w-48 xl:w-56" src="img/svg/networking.svg" alt="Networking"/>
-                        <img class="object-cover w-20 h-20 rounded shadow-lg sm:h-32 xl:h-40 sm:w-32 xl:w-40" src="img/svg/tennis.svg" alt="Tennis"/>
+                        <img class="animate__animated animate__fadeIn animate__delay-2s object-cover mb-6 rounded shadow-lg h-28 sm:h-48 xl:h-56 w-28 sm:w-48 xl:w-56" src="img/svg/networking.svg" alt="Networking"/>
+                        <img class="animate__animated animate__fadeIn animate__delay-4s object-cover w-20 h-20 rounded shadow-lg sm:h-32 xl:h-40 sm:w-32 xl:w-40" src="img/svg/tennis.svg" alt="Tennis"/>
                     </div>
                     <div class="px-3">
-                        <img class="object-cover w-40 h-40 rounded shadow-lg sm:h-64 xl:h-80 sm:w-64 xl:w-80" src="img/svg/programming.svg" alt="Programming"/>
+                        <img class="animate__animated animate__fadeIn animate__delay-3s object-cover w-40 h-40 rounded shadow-lg sm:h-64 xl:h-80 sm:w-64 xl:w-80" src="img/svg/programming.svg" alt="Programming"/>
                     </div>
                 </div>
             </div>
