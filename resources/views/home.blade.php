@@ -2,7 +2,7 @@
 
 @section('content')
     <section class="text-white bg-stone-900 body-font">
-        <div class="container mx-auto flex pl-10 py-24 md:flex-row flex-col items-center h-screen">
+        <div class="container mx-auto flex md:pl-10 py-24 md:flex-row flex-col items-center h-screen">
             <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
                 <h1 class="animate__animated animate__fadeInLeft animate__slow title-font sm:text-4xl text-3xl mb-4 font-medium text-white">Greetings,
                     <br class="hidden lg:inline-block">I'm <span class="text-orange-600">Thibaut</span> !

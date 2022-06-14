@@ -1,3 +1,4 @@
+@import url(https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap);
 /*
 ! tailwindcss v3.0.24 | MIT License | https://tailwindcss.com
 *//*
@@ -518,6 +519,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-left: 0px;
   margin-right: 0px;
 }
+.my-8 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
 .mx-16 {
   margin-left: 4rem;
   margin-right: 4rem;
@@ -575,6 +580,12 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 .mb-5 {
   margin-bottom: 1.25rem;
+}
+.ml-9 {
+  margin-left: 2.25rem;
+}
+.ml-12 {
+  margin-left: 3rem;
 }
 .mr-6 {
   margin-right: 1.5rem;
@@ -885,9 +896,9 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-top: 4rem;
   padding-bottom: 4rem;
 }
-.px-10 {
-  padding-left: 2.5rem;
-  padding-right: 2.5rem;
+.px-12 {
+  padding-left: 3rem;
+  padding-right: 3rem;
 }
 .py-3 {
   padding-top: 0.75rem;
@@ -899,9 +910,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 .pt-8 {
   padding-top: 2rem;
-}
-.pl-10 {
-  padding-left: 2.5rem;
 }
 .pb-16 {
   padding-bottom: 4rem;
@@ -940,6 +948,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 .text-base {
   font-size: 1rem;
   line-height: 1.5rem;
+}
+.text-5xl {
+  font-size: 3rem;
+  line-height: 1;
 }
 .text-xs {
   font-size: 0.75rem;
@@ -1056,6 +1068,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 .ease-in-out {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+*{
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 body{
@@ -1276,8 +1292,17 @@ body{
     padding-right: 6rem;
   }
 
+  .md\:px-32 {
+    padding-left: 8rem;
+    padding-right: 8rem;
+  }
+
   .md\:pr-8 {
     padding-right: 2rem;
+  }
+
+  .md\:pl-10 {
+    padding-left: 2.5rem;
   }
 
   .md\:pr-16 {
