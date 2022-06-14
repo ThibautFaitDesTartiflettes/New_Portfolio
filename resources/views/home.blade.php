@@ -7,7 +7,7 @@
                 <h1 class="animate__animated animate__fadeInLeft animate__slow title-font sm:text-4xl text-3xl mb-4 font-medium text-white">Greetings,
                     <br class="hidden lg:inline-block">I'm <span class="text-orange-600">Thibaut</span> !
                 </h1>
-                <p class="animate__animated animate__fadeInLeft animate__slow mb-8 leading-relaxed">Actually studying in a <strong>French engineering school</strong> specialized in IT. 
+                <p class="animate__animated animate__fadeInLeft animate__slow mb-8 leading-relaxed px-5">Actually studying in a <strong>French engineering school</strong> specialized in IT. 
                     <br>I am learning new things every day and building a lot of projects for fun. 
                     <br>Don't hesitate to <strong>contact me</strong> at any time, I'm always up for something new!</p>
                 <div class="animate__animated animate__fadeIn animate__delay-2s flex justify-center">

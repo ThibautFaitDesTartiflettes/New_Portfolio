@@ -6,7 +6,7 @@
             <h1 class="title-font sm:text-4xl text-3xl mb-16 font-medium text-white">My <span class="text-orange-600">Internships</h1>
             <div class="flex flex-col items-center justify-between lg:flex-row">
                 <div class="animate__animated animate__fadeIn animate__slow relative lg:w-1/2">
-                    <img class="object-cover w-full h-32 rounded shadow-lg sm:h-96 saturate-[0] m-[20px]" src="img/bdf.jpg" alt="BanqueDeFrance"/>
+                    <img class="object-cover w-full h-32 rounded shadow-lg sm:h-96 saturate-[0] m-[20px] hidden md:block" src="img/bdf.jpg" alt="BanqueDeFrance"/>
                 </div>
                 <div class="mb-10 lg:max-w-lg lg:pr-5 lg:mb-0">
                     <div class="animate__animated animate__fadeInRight max-w-xl mb-6">
@@ -63,14 +63,14 @@
                     </div>
                 </div>
                 <div class="relative lg:w-1/2">
-                    <img class="object-cover w-full h-32 rounded shadow-lg sm:h-96 m-[20px]" src="img/se.jpg" alt="SchneiderElectric"/>
+                    <img class="object-cover w-full h-32 rounded shadow-lg sm:h-96 m-[20px] hidden md:block" src="img/se.jpg" alt="SchneiderElectric"/>
                 </div>
             </div>
             <div class="bar2"></div>
             <h1 class="title-font sm:text-4xl text-3xl mb-16 font-medium text-white">My <span class="text-orange-600">Jobs</h1>
             <div class="flex flex-col items-center justify-between lg:flex-row">
                 <div class="animate__animated animate__fadeIn animate__slow relative lg:w-1/2">
-                    <img class="object-cover w-full h-48 rounded shadow-lg sm:h-96 saturate-[0] m-[20px]" src="img/tcp.jpg" alt="TennisClubPacy"/>
+                    <img class="object-cover w-full h-48 rounded shadow-lg sm:h-96 saturate-[0] m-[20px] hidden md:block" src="img/tcp.jpg" alt="TennisClubPacy"/>
                 </div>
                 <div class="mb-10 lg:max-w-lg lg:pr-5 lg:mb-0">
                     <div class="animate__animated animate__fadeInRight max-w-xl mb-6">

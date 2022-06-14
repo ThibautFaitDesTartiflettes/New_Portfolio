@@ -527,6 +527,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-left: 4rem;
   margin-right: 4rem;
 }
+.mx-8 {
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
 .ml-5 {
   margin-left: 1.25rem;
 }
@@ -752,6 +756,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 .gap-8 {
   gap: 2rem;
 }
+.space-x-4 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-x-reverse: 0;
+  margin-right: calc(1rem * var(--tw-space-x-reverse));
+  margin-left: calc(1rem * calc(1 - var(--tw-space-x-reverse)));
+}
 .overflow-hidden {
   overflow: hidden;
 }
@@ -907,6 +916,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 .px-2 {
   padding-left: 0.5rem;
   padding-right: 0.5rem;
+}
+.py-12 {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
 }
 .pt-8 {
   padding-top: 2rem;
@@ -1251,6 +1264,11 @@ body{
 
 @media (min-width: 768px) {
 
+  .md\:mx-16 {
+    margin-left: 4rem;
+    margin-right: 4rem;
+  }
+
   .md\:mb-0 {
     margin-bottom: 0px;
   }
@@ -1261,6 +1279,14 @@ body{
 
   .md\:ml-auto {
     margin-left: auto;
+  }
+
+  .md\:mr-2 {
+    margin-right: 0.5rem;
+  }
+
+  .md\:block {
+    display: block;
   }
 
   .md\:w-2\/3 {
