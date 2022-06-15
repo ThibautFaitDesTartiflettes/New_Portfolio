@@ -6,14 +6,14 @@
             {{ csrf_field() }}
             <div class="animate__animated animate__fadeIn animate__slow container px-5 py-24 mx-auto">
                 <div class="flex flex-col text-center w-full mb-12">
-                    <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4">Contact me</h1>
-                    <p class="lg:w-2/3 mx-auto leading-relaxed text-base">Contact me for <strong>anything</strong> you want, I will answer back the fastest I can ! <br> I am available for <strong>work</strong>, <strong>internships</strong>, <strong>problems</strong>, <strong>order</strong>, <strong>etc</strong>...</p>
+                    <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4">{{__('message.contact_h1')}}</h1>
+                    <p class="lg:w-2/3 mx-auto leading-relaxed text-base">{{__('message.contact_p1')}}<strong>{{__('message.contact_strong1')}}</strong>{{__('message.contact_p2')}}<br>{{__('message.contact_p3')}}<strong>{{__('message.contact_strong2')}}</strong>, <strong>{{__('message.contact_strong3')}}</strong>, <strong>{{__('message.contact_strong4')}}</strong>, <strong>{{__('message.contact_strong5')}}</strong>, <strong>etc</strong>...</p>
                 </div>
                 <div class="lg:w-1/2 md:w-2/3 mx-auto">
                     <div class="flex flex-wrap -m-2">
                         <div class="p-2 w-1/2">
                             <div class="relative">
-                                <label for="name" class="leading-7 text-sm text-stone-300">Name</label>
+                                <label for="name" class="leading-7 text-sm text-stone-300">{{__('message.contact_label1')}}</label>
                                 <input type="text" id="name" name="name" class="w-full bg-stone-300 rounded border-2 border-stone-100 focus:border-orange-600 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
                             </div>
                         </div>
@@ -30,7 +30,7 @@
                             </div>
                         </div>
                         <div class="p-2 w-full">
-                            <button type="Submit" form="contact-from" value="submit" class="flex mx-auto text-white bg-orange-600 border-0 py-2 px-8 focus:outline-none hover:bg-orange-700 rounded text-lg">Send
+                            <button type="Submit" form="contact-from" value="submit" class="flex mx-auto text-white bg-orange-600 border-0 py-2 px-8 focus:outline-none hover:bg-orange-700 rounded text-lg">{{__('message.contact_label2')}}
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="ml-2">
                                     <path fill="#ffffff" d="M0 12l11 3.1 7-8.1-8.156 5.672-4.312-1.202 15.362-7.68-3.974 14.57-3.75-3.339-2.17 2.925v-.769l-2-.56v7.383l4.473-6.031 4.527 4.031 6-22z"/>
                                 </svg>
@@ -55,8 +55,8 @@
                 </div>
                 <div class="px-4 py-2 -mx-3">
                     <div class="mx-3">
-                        <span class="font-semibold text-emerald-500">Success</span>
-                        <p class="text-sm text-white">Your Message as been send!</p>
+                        <span class="font-semibold text-emerald-500">{{__('message.contact_span1')}}</span>
+                        <p class="text-sm text-white">{{__('message.contact_p4')}}</p>
                     </div>
                 </div>
             </div>

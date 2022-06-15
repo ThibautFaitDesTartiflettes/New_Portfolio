@@ -7,22 +7,22 @@
                 <li class="nav-item" role="presentation">
                     <a href="#web" class="nav-link block font-medium text-xs leading-tight uppercase border-x-0 border-t-0 border-b-2 border-transparent px-6 py-3 my-2 hover:border-orange-600 transition duration-300 ease-in-out focus:border-orange-600 border-orange-600" 
                         id="tabs-web-tab" data-bs-toggle="pill" data-bs-target="#tabs-web" role="tab" 
-                        aria-controls="tabs-web" aria-selected="true">Web</a>
+                        aria-controls="tabs-web" aria-selected="true">{{__('message.project_a1')}}</a>
                 </li>
                 <li class="nav-item" role="presentation">
                     <a href="#software" class="nav-link block font-medium text-xs leading-tight uppercase border-x-0 border-t-0 border-b-2 border-transparent px-6 py-3 my-2 hover:border-orange-600 transition duration-300 ease-in-out focus:border-orange-600" 
                         id="tabs-software-tab" data-bs-toggle="pill" data-bs-target="#tabs-software" role="tab"
-                        aria-controls="tabs-software" aria-selected="false">Software</a>
+                        aria-controls="tabs-software" aria-selected="false">{{__('message.project_a2')}}</a>
                 </li>
                 <li class="nav-item" role="presentation">
                     <a href="#networking" class="nav-link block font-medium text-xs leading-tight uppercase border-x-0 border-t-0 border-b-2 border-transparent px-6 py-3 my-2 hover:border-orange-600 transition duration-300 ease-in-out focus:border-orange-600" 
                         id="tabs-networking-tab" data-bs-toggle="pill" data-bs-target="#tabs-networking" role="tab"
-                        aria-controls="tabs-networking" aria-selected="false">Networking</a>
+                        aria-controls="tabs-networking" aria-selected="false">{{__('message.project_a3')}}</a>
                 </li>
                 <li class="nav-item" role="presentation">
                     <a href="#others" class="nav-link block font-medium text-xs leading-tight uppercase border-x-0 border-t-0 border-b-2 border-transparent px-6 py-3 my-2 hover:border-orange-600 transition duration-300 ease-in-out focus:border-orange-600" 
                         id="tabs-others-tab" data-bs-toggle="pill" data-bs-target="#tabs-others" role="tab"
-                        aria-controls="tabs-others" aria-selected="false">Others</a>
+                        aria-controls="tabs-others" aria-selected="false">{{__('message.project_a4')}}</a>
                 </li>
             </ul>
         </div>
@@ -41,13 +41,13 @@
                             </div>
                             <div>
                                 <div class="mb-2">
-                                    <p class="text-xs font-semibold text-orange-600 tracking-wide uppercase transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800" aria-label="Category" title="Development">Web</p>
+                                    <p class="text-xs font-semibold text-orange-600 tracking-wide uppercase transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800" aria-label="Category" title="Development">{{__('message.project_a1')}}</p>
                                 </div>
                                 <div class="mb-2">
-                                    <p aria-label="Article" class="inline-block text-2xl font-bold leading-5 text-white transition-colors duration-200 hover:text-deep-purple-accent-400">New portfolio</p>
+                                    <p aria-label="Article" class="inline-block text-2xl font-bold leading-5 text-white transition-colors duration-200 hover:text-deep-purple-accent-400">{{__('message.project_p1')}}</p>
                                 </div>
                                 <p class="mb-1 text-white">
-                                    Developed a newer version of my portfolio website.
+                                    {{__('message.project_p2')}}
                                 </p>
                                 <div class="flex flex-wrap">
                                     <div class="w-8 h-8 bg-stone-700 rounded-lg p-1 mr-1 mt-1">
@@ -76,13 +76,13 @@
                             </div>
                             <div>
                                 <div class="mb-2">
-                                    <p class="text-xs font-semibold text-orange-600 tracking-wide uppercase transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800" aria-label="Category" title="Development">Web</p>
+                                    <p class="text-xs font-semibold text-orange-600 tracking-wide uppercase transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800" aria-label="Category" title="Development">{{__('message.project_a1')}}</p>
                                 </div>
                                 <div class="mb-2">
                                     <p aria-label="Article" class="inline-block text-2xl font-bold leading-5 text-white transition-colors duration-200 hover:text-deep-purple-accent-400">GSBLot</p>
                                 </div>
                                 <p class="mb-1 text-white">
-                                    Manage drug distribution between productions, shop and visitors.
+                                    {{__('message.project_p3')}}
                                 </p>
                                 <div class="flex flex-wrap">
                                     <div class="w-8 h-8 bg-stone-700 rounded-lg p-1 mr-1 mt-1">
@@ -114,13 +114,13 @@
                             </div>
                             <div>
                                 <div class="mb-2">
-                                    <p class="text-xs font-semibold text-orange-600 tracking-wide uppercase transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800" aria-label="Category" title="Development">Web</p>
+                                    <p class="text-xs font-semibold text-orange-600 tracking-wide uppercase transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800" aria-label="Category" title="Development">{{__('message.project_a1')}}</p>
                                 </div>
                                 <div class="mb-2">
                                     <p aria-label="Article" class="inline-block text-2xl font-bold leading-5 text-white transition-colors duration-200 hover:text-deep-purple-accent-400">Repas BTS</p>
                                 </div>
                                 <p class="mb-1 text-white">
-                                    Order, consult and cancel your food orders.
+                                    {{__('message.project_p4')}}
                                 </p>
                                 <div class="flex flex-wrap">
                                     <div class="w-8 h-8 bg-stone-700 rounded-lg p-1 mr-1 mt-1">
@@ -152,13 +152,13 @@
                             </div>
                             <div>
                                 <div class="mb-2">
-                                    <p class="text-xs font-semibold text-orange-600 tracking-wide uppercase transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800" aria-label="Category" title="Development">Web</p>
+                                    <p class="text-xs font-semibold text-orange-600 tracking-wide uppercase transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800" aria-label="Category" title="Development">{{__('message.project_a1')}}</p>
                                 </div>
                                 <div class="mb-2">
                                     <p aria-label="Article" class="inline-block text-2xl font-bold leading-5 text-white transition-colors duration-200 hover:text-deep-purple-accent-400">Impress</p>
                                 </div>
                                 <p class="mb-1 text-white">
-                                    Consult the printing traces. Include a permissions management for the staff.
+                                    {{__('message.project_p5')}}
                                 </p>
                                 <div class="flex flex-wrap">
                                     <div class="w-8 h-8 bg-stone-700 rounded-lg p-1 mr-1 mt-1">
@@ -187,13 +187,13 @@
                             </div>
                             <div>
                                 <div class="mb-2">
-                                    <p class="text-xs font-semibold text-orange-600 tracking-wide uppercase transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800" aria-label="Category" title="Development">Web</p>
+                                    <p class="text-xs font-semibold text-orange-600 tracking-wide uppercase transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800" aria-label="Category" title="Development">{{__('message.project_a1')}}</p>
                                 </div>
                                 <div class="mb-2">
                                     <p aria-label="Article" class="inline-block text-2xl font-bold leading-5 text-white transition-colors duration-200 hover:text-deep-purple-accent-400">Wordpress</p>
                                 </div>
                                 <p class="mb-1 text-white">
-                                    Creating a showcase site for the MLL (Maison des Ligues de Lorraine).
+                                    {{__('message.project_p6')}}
                                 </p>
                                 <div class="flex flex-wrap">
                                     <div class="w-8 h-8 bg-stone-700 rounded-lg p-1 mt-1">
@@ -219,13 +219,13 @@
                             </div>
                             <div>
                                 <div class="mb-2">
-                                    <p class="text-xs font-semibold text-orange-600 tracking-wide uppercase transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800" aria-label="Category" title="Software">Software</p>
+                                    <p class="text-xs font-semibold text-orange-600 tracking-wide uppercase transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800" aria-label="Category" title="Software">{{__('message.project_a2')}}</p>
                                 </div>
                                 <div class="mb-2">
                                     <p aria-label="Article" class="inline-block text-2xl font-bold leading-5 text-white transition-colors duration-200 hover:text-deep-purple-accent-400">EasySave</p>
                                 </div>
                                 <p class="mb-1 text-white">
-                                    Save your data locally and encrypt them during the transfer. Remote interface enable to follow the transfers. JSON/XML log system.
+                                    {{__('message.project_p7')}}
                                 </p>
                                 <div class="flex flex-wrap">
                                     <div class="w-8 h-8 bg-stone-700 rounded-lg p-1 mr-1 mt-1">
@@ -245,13 +245,13 @@
                             </div>
                             <div>
                                 <div class="mb-2">
-                                    <p class="text-xs font-semibold text-orange-600 tracking-wide uppercase transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800" aria-label="Category" title="Software">Software</p>
+                                    <p class="text-xs font-semibold text-orange-600 tracking-wide uppercase transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800" aria-label="Category" title="Software">{{__('message.project_a2')}}</p>
                                 </div>
                                 <div class="mb-2">
                                     <p aria-label="Article" class="inline-block text-2xl font-bold leading-5 text-white transition-colors duration-200 hover:text-deep-purple-accent-400">gesAMM</p>
                                 </div>
                                 <p class="mb-1 text-white">
-                                    Allow management of the medicines from the development to the market.
+                                    {{__('message.project_p8')}}
                                 </p>
                                 <div class="flex flex-wrap">
                                     <div class="w-8 h-8 bg-stone-700 rounded-lg p-1 mr-1 mt-1">
@@ -274,13 +274,13 @@
                             </div>
                             <div>
                                 <div class="mb-2">
-                                    <p class="text-xs font-semibold text-orange-600 tracking-wide uppercase transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800" aria-label="Category" title="Software">Software</p>
+                                    <p class="text-xs font-semibold text-orange-600 tracking-wide uppercase transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800" aria-label="Category" title="Software">{{__('message.project_a2')}}</p>
                                 </div>
                                 <div class="mb-2">
                                     <p aria-label="Article" class="inline-block text-2xl font-bold leading-5 text-white transition-colors duration-200 hover:text-deep-purple-accent-400">ProSanté</p>
                                 </div>
                                 <p class="mb-1 text-white">
-                                    Consult / Update all data and statistics of the GSB company.
+                                    {{__('message.project_p9')}}
                                 </p>
                                 <div class="flex flex-wrap">
                                     <div class="w-8 h-8 bg-stone-700 rounded-lg p-1 mr-1 mt-1">
@@ -303,13 +303,13 @@
                             </div>
                             <div>
                                 <div class="mb-2">
-                                    <p class="text-xs font-semibold text-orange-600 tracking-wide uppercase transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800" aria-label="Category" title="Software">Software</p>
+                                    <p class="text-xs font-semibold text-orange-600 tracking-wide uppercase transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800" aria-label="Category" title="Software">{{__('message.project_a2')}}</p>
                                 </div>
                                 <div class="mb-2">
                                     <p aria-label="Article" class="inline-block text-2xl font-bold leading-5 text-white transition-colors duration-200 hover:text-deep-purple-accent-400">Digicode</p>
                                 </div>
                                 <p class="mb-1 text-white">
-                                    Digicode with excel log.
+                                    {{__('message.project_p10')}}
                                 </p>
                                 <div class="flex flex-wrap">
                                     <div class="w-8 h-8 bg-stone-700 rounded-lg p-1 mr-1 mt-1">
@@ -338,13 +338,13 @@
                             </div>
                             <div>
                                 <div class="mb-2">
-                                    <p class="text-xs font-semibold text-orange-600 tracking-wide uppercase transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800" aria-label="Category" title="Networking">Networking</p>
+                                    <p class="text-xs font-semibold text-orange-600 tracking-wide uppercase transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800" aria-label="Category" title="Networking">{{__('message.project_a3')}}</p>
                                 </div>
                                 <div class="mb-2">
                                     <p aria-label="Article" class="inline-block text-2xl font-bold leading-5 text-white transition-colors duration-200 hover:text-deep-purple-accent-400">Admin-sys</p>
                                 </div>
                                 <p class="mb-1 text-white">
-                                    Create the all infrastructure for a company (DMZ, LAN, Firewall, AD/DS, DNS, ...).
+                                    {{__('message.project_p11')}}
                                 </p>
                                 <div class="flex flex-wrap">
                                     <div class="w-8 h-8 bg-stone-700 rounded-lg p-1 mr-1 mt-1">
@@ -364,13 +364,13 @@
                             </div>
                             <div>
                                 <div class="mb-2">
-                                    <p class="text-xs font-semibold text-orange-600 tracking-wide uppercase transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800" aria-label="Category" title="Networking">Networking</p>
+                                    <p class="text-xs font-semibold text-orange-600 tracking-wide uppercase transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800" aria-label="Category" title="Networking">{{__('message.project_a3')}}</p>
                                 </div>
                                 <div class="mb-2">
                                     <p aria-label="Article" class="inline-block text-2xl font-bold leading-5 text-white transition-colors duration-200 hover:text-deep-purple-accent-400">Normandie presse</p>
                                 </div>
                                 <p class="mb-1 text-white">
-                                    Install and use a dependency management tool in a company context.
+                                    {{__('message.project_p12')}}
                                 </p>
                                 <div class="flex flex-wrap">
                                     <div class="w-14 h-8 bg-stone-700 rounded-lg p-1 mr-1 mt-1">
@@ -393,13 +393,13 @@
                             </div>
                             <div>
                                 <div class="mb-2">
-                                    <p class="text-xs font-semibold text-orange-600 tracking-wide uppercase transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800" aria-label="Category" title="Development">Web</p>
+                                    <p class="text-xs font-semibold text-orange-600 tracking-wide uppercase transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800" aria-label="Category" title="Development">{{__('message.project_a3')}}</p>
                                 </div>
                                 <div class="mb-2">
                                     <p aria-label="Article" class="inline-block text-2xl font-bold leading-5 text-white transition-colors duration-200 hover:text-deep-purple-accent-400">Equipement</p>
                                 </div>
                                 <p class="mb-1 text-white">
-                                    Research and organize the distribution and management of PC's at the best cost.
+                                    {{__('message.project_p13')}}
                                 </p>
                                 <div class="flex flex-wrap">
                                     <div class="w-8 h-8 bg-stone-700 rounded-lg p-1 mt-1">
@@ -425,13 +425,13 @@
                             </div>
                             <div>
                                 <div class="mb-2">
-                                    <p class="text-xs font-semibold text-orange-600 tracking-wide uppercase transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800" aria-label="Category" title="Networking">Networking</p>
+                                    <p class="text-xs font-semibold text-orange-600 tracking-wide uppercase transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800" aria-label="Category" title="Networking">{{__('message.project_a4')}}</p>
                                 </div>
                                 <div class="mb-2">
                                     <p aria-label="Article" class="inline-block text-2xl font-bold leading-5 text-white transition-colors duration-200 hover:text-deep-purple-accent-400">Gsb vistat</p>
                                 </div>
                                 <p class="mb-1 text-white">
-                                    Making statistics from a database and export to a CSV. 
+                                    {{__('message.project_p14')}}
                                 </p>
                                 <div class="flex flex-wrap">
                                     <div class="w-8 h-8 bg-stone-700 rounded-lg p-1 mr-1 mt-1">

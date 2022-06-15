@@ -40,3 +40,10 @@ body{
     margin: 5% auto;
     background: #ea580c;
 }
+
+.barH{
+    height: 35px;
+    width: 2px;
+    border-radius: 100vh;
+    background: #ea580c;
+}

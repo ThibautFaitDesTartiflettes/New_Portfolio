@@ -523,14 +523,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-top: 2rem;
   margin-bottom: 2rem;
 }
-.mx-16 {
-  margin-left: 4rem;
-  margin-right: 4rem;
-}
-.mx-8 {
-  margin-left: 2rem;
-  margin-right: 2rem;
-}
 .ml-5 {
   margin-left: 1.25rem;
 }
@@ -612,8 +604,8 @@ Ensure the default browser behavior of the `hidden` attribute.
 .mt-4 {
   margin-top: 1rem;
 }
-.mr-5 {
-  margin-right: 1.25rem;
+.mt-5 {
+  margin-top: 1.25rem;
 }
 .block {
   display: block;
@@ -917,10 +909,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-left: 0.5rem;
   padding-right: 0.5rem;
 }
-.py-12 {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-}
 .pt-8 {
   padding-top: 2rem;
 }
@@ -1120,6 +1108,13 @@ body{
     background: #ea580c;
 }
 
+.barH{
+    height: 35px;
+    width: 2px;
+    border-radius: 100vh;
+    background: #ea580c;
+}
+
 .hover\:border-orange-600:hover {
   --tw-border-opacity: 1;
   border-color: rgb(234 88 12 / var(--tw-border-opacity));
@@ -1279,10 +1274,6 @@ body{
 
   .md\:ml-auto {
     margin-left: auto;
-  }
-
-  .md\:mr-2 {
-    margin-right: 0.5rem;
   }
 
   .md\:block {
