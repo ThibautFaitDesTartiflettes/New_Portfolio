@@ -137,4 +137,6 @@ return [
     'project_p12' => 'Install and use a dependency management tool in a company context.',
     'project_p13' => 'Research and organize the distribution and management of PC\'s at the best cost.',
     'project_p14' => 'Making statistics from a database and export to a CSV.',
+    'project_p15' => 'Web server',
+    'project_p16' => 'Transform a raspberry pi into a web server (apache, port-forwading, domain, SSL, ...).',
 ];

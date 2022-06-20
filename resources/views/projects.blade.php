@@ -341,6 +341,41 @@
                                     <p class="text-xs font-semibold text-orange-600 tracking-wide uppercase transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800" aria-label="Category" title="Networking">{{__('message.project_a3')}}</p>
                                 </div>
                                 <div class="mb-2">
+                                    <p aria-label="Article" class="inline-block text-2xl font-bold leading-5 text-white transition-colors duration-200 hover:text-deep-purple-accent-400">{{__('message.project_p15')}}</p>
+                                </div>
+                                <p class="mb-1 text-white">
+                                    {{__('message.project_p16')}}
+                                </p>
+                                <div class="flex flex-wrap">
+                                    <div class="w-8 h-8 bg-stone-700 rounded-lg p-1 mr-1 mt-1 flex justify-center items-center">
+                                        <img class="w-3/4" src="img/svg/programming_lang/raspberry-pi.svg" alt="VmWare">
+                                    </div>
+                                    <div class="w-8 h-8 bg-stone-700 rounded-lg p-1 mr-1 mt-1 flex justify-center items-center">
+                                        <img class="w-1/2" src="img/svg/programming_lang/apache.svg" alt="VmWare">
+                                    </div>
+                                    <div class="w-8 h-8 bg-stone-700 rounded-lg p-1 mr-1 mt-1">
+                                        <img src="img/svg/programming_lang/lets-encrypt.svg" alt="VmWare">
+                                    </div>
+                                    <div class="w-8 h-8 bg-stone-700 rounded-lg p-1 mr-1 mt-1">
+                                        <img src="img/svg/programming_lang/ovh.svg" alt="VmWare">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flex p-5 rounded border-2 border-stone-400">
+                            <div class="pt-1 mr-6 text-center">
+                                <div class="px-2 pb-1 mb-1 border-b border-orange-600">
+                                    <p class="text-sm text-blue-gray-700">Oct</p>
+                                </div>
+                                <div class="px-2">
+                                    <p class="text-lg font-bold">2022</p>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="mb-2">
+                                    <p class="text-xs font-semibold text-orange-600 tracking-wide uppercase transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800" aria-label="Category" title="Networking">{{__('message.project_a3')}}</p>
+                                </div>
+                                <div class="mb-2">
                                     <p aria-label="Article" class="inline-block text-2xl font-bold leading-5 text-white transition-colors duration-200 hover:text-deep-purple-accent-400">Admin-sys</p>
                                 </div>
                                 <p class="mb-1 text-white">

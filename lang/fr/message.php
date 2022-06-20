@@ -127,4 +127,6 @@ return [
     'project_p12' => 'Déployer et utiliser une application de gestion de dépendances et de tickets.',
     'project_p13' => 'Rechercher et organiser la distribution et le management de PC au meilleur coût.',
     'project_p14' => 'Effectuer des statistiques dans une base de données et les exporter en CSV.',
+    'project_p15' => 'Serveur web',
+    'project_p16' => 'Transformation d\'un raspberry pi en serveur web (apache, port-forwading, domaine, SSL, ...).',
 ];
