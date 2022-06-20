@@ -330,7 +330,7 @@
                         <div class="flex p-5 rounded border-2 border-stone-400">
                             <div class="pt-1 mr-6 text-center">
                                 <div class="px-2 pb-1 mb-1 border-b border-orange-600">
-                                    <p class="text-sm text-blue-gray-700">Oct</p>
+                                    <p class="text-sm text-blue-gray-700">Jun</p>
                                 </div>
                                 <div class="px-2">
                                     <p class="text-lg font-bold">2022</p>
@@ -368,7 +368,7 @@
                                     <p class="text-sm text-blue-gray-700">Oct</p>
                                 </div>
                                 <div class="px-2">
-                                    <p class="text-lg font-bold">2022</p>
+                                    <p class="text-lg font-bold">2021</p>
                                 </div>
                             </div>
                             <div>
