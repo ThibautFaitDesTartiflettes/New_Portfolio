@@ -449,7 +449,7 @@
             <div class="animate__animated animate__fadeIn tab-panel hidden" id="tabs-networking" role="tabpanel" aria-labelledby="tabs-others-tab">
                 <div class="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-8">
                     <div class="grid gap-8 lg:grid-cols-3 sm:max-w-sm sm:mx-auto lg:max-w-full">
-                    <div class="flex p-5 rounded border-2 border-stone-400">
+                        <div class="flex p-5 rounded border-2 border-stone-400">
                             <div class="pt-1 mr-6 text-center">
                                 <div class="px-2 pb-1 mb-1 border-b border-orange-600">
                                     <p class="text-sm text-blue-gray-700">Mai</p>
