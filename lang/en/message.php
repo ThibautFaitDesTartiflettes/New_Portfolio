@@ -139,4 +139,5 @@ return [
     'project_p14' => 'Making statistics from a database and export to a CSV.',
     'project_p15' => 'Web server',
     'project_p16' => 'Transform a raspberry pi into a web server (apache, port-forwading, domain, SSL, ...).',
+    'project_p17' => 'Create and implement a Big Data infrastructure (Hadoop, Talend studio, Data lake / Warehouse, Cloudera, Hive, Power Bi, ...).',
 ];

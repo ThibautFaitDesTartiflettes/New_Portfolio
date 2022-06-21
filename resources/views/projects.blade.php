@@ -449,6 +449,47 @@
             <div class="animate__animated animate__fadeIn tab-panel hidden" id="tabs-networking" role="tabpanel" aria-labelledby="tabs-others-tab">
                 <div class="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-8">
                     <div class="grid gap-8 lg:grid-cols-3 sm:max-w-sm sm:mx-auto lg:max-w-full">
+                    <div class="flex p-5 rounded border-2 border-stone-400">
+                            <div class="pt-1 mr-6 text-center">
+                                <div class="px-2 pb-1 mb-1 border-b border-orange-600">
+                                    <p class="text-sm text-blue-gray-700">Mai</p>
+                                </div>
+                                <div class="px-2">
+                                    <p class="text-lg font-bold">2022</p>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="mb-2">
+                                    <p class="text-xs font-semibold text-orange-600 tracking-wide uppercase transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800" aria-label="Category" title="Others">{{__('message.project_a4')}}</p>
+                                </div>
+                                <div class="mb-2">
+                                    <p aria-label="Article" class="inline-block text-2xl font-bold leading-5 text-white transition-colors duration-200 hover:text-deep-purple-accent-400">Big Data</p>
+                                </div>
+                                <p class="mb-1 text-white">
+                                    {{__('message.project_p17')}}
+                                </p>
+                                <div class="flex flex-wrap">
+                                    <div class="w-8 h-8 bg-stone-700 rounded-lg p-1 mr-1 mt-1 flex justify-center items-center">
+                                        <img src="img/svg/programming_lang/hadoop.svg" alt="Hadoop">
+                                    </div>
+                                    <div class="w-8 h-8 bg-stone-700 rounded-lg p-1 mr-1 mt-1">
+                                        <img src="img/png/talend_studio.png" alt="Talend_studio">
+                                    </div>
+                                    <div class="w-8 h-8 bg-stone-700 rounded-lg p-1 mr-1 mt-1">
+                                        <img src="img/png/cloudera.png" alt="Cloudera">
+                                    </div>
+                                    <div class="w-8 h-8 bg-stone-700 rounded-lg p-1 mr-1 mt-1">
+                                        <img src="img/svg/programming_lang/hive.svg" alt="Hive">
+                                    </div>
+                                    <div class="w-8 h-8 bg-stone-700 rounded-lg p-1 mr-1 mt-1">
+                                        <img src="img/svg/programming_lang/power_bi.svg" alt="Power_bi">
+                                    </div>
+                                    <div class="w-8 h-8 bg-stone-700 rounded-lg p-1 mr-1 mt-1">
+                                        <img src="img/svg/programming_lang/postgresql.svg" alt="PostgreSQL">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                         <div class="flex p-5 rounded border-2 border-stone-400">
                             <div class="pt-1 mr-6 text-center">
                                 <div class="px-2 pb-1 mb-1 border-b border-orange-600">
@@ -460,7 +501,7 @@
                             </div>
                             <div>
                                 <div class="mb-2">
-                                    <p class="text-xs font-semibold text-orange-600 tracking-wide uppercase transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800" aria-label="Category" title="Networking">{{__('message.project_a4')}}</p>
+                                    <p class="text-xs font-semibold text-orange-600 tracking-wide uppercase transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800" aria-label="Category" title="Others">{{__('message.project_a4')}}</p>
                                 </div>
                                 <div class="mb-2">
                                     <p aria-label="Article" class="inline-block text-2xl font-bold leading-5 text-white transition-colors duration-200 hover:text-deep-purple-accent-400">Gsb vistat</p>
