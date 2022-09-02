@@ -140,4 +140,7 @@ return [
     'project_p15' => 'Web server',
     'project_p16' => 'Transform a raspberry pi into a web server (apache, port-forwading, domain, SSL, ...).',
     'project_p17' => 'Create and implement a Big Data infrastructure (Hadoop, Talend studio, Data lake / Warehouse, Cloudera, Hive, Power Bi, ...).',
+    'project_p18' => 'Advanced algorithm',
+    'project_p19' => 'VRP problem with metaheuristics (ant colony, genetic, brute force).',
+    'project_p20' => 'Jul',
 ];
