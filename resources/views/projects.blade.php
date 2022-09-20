@@ -487,6 +487,32 @@
                         <div class="flex p-5 rounded border-2 border-stone-400">
                             <div class="pt-1 mr-6 text-center">
                                 <div class="px-2 pb-1 mb-1 border-b border-orange-600">
+                                    <p class="text-sm text-blue-gray-700">{{__('message.project_p20')}}</p>
+                                </div>
+                                <div class="px-2">
+                                    <p class="text-lg font-bold">2022</p>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="mb-2">
+                                    <p class="text-xs font-semibold text-orange-600 tracking-wide uppercase transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800" aria-label="Category" title="Others">{{__('message.project_a4')}}</p>
+                                </div>
+                                <div class="mb-2">
+                                    <p aria-label="Article" class="inline-block text-2xl font-bold leading-5 text-white transition-colors duration-200 hover:text-deep-purple-accent-400">{{__('message.project_p18')}}</p>
+                                </div>
+                                <p class="mb-1 text-white">
+                                    {{__('message.project_p19')}}
+                                </p>
+                                <div class="flex flex-wrap">
+                                    <div class="w-8 h-8 bg-stone-700 rounded-lg p-1 mr-1 mt-1 flex justify-center items-center">
+                                        <img src="img/svg/programming_lang/python.svg" alt="Python">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flex p-5 rounded border-2 border-stone-400">
+                            <div class="pt-1 mr-6 text-center">
+                                <div class="px-2 pb-1 mb-1 border-b border-orange-600">
                                     <p class="text-sm text-blue-gray-700">Mai</p>
                                 </div>
                                 <div class="px-2">
