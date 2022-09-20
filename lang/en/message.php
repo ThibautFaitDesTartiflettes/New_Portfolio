@@ -140,4 +140,7 @@ return [
     'project_p15' => 'Web server',
     'project_p16' => 'Transform a raspberry pi into a web server (apache, port-forwading, domain, SSL, ...).',
     'project_p17' => 'Create and implement a Big Data infrastructure (Hadoop, Talend studio, Data lake / Warehouse, Cloudera, Hive, Power Bi, ...).',
+    'project_p18' => 'Aug',
+    'project_p19' => 'Tennis club de Pacy',
+    'project_p20' => 'Created a custom website for the TCP. Addition of new features : user account, online registration, emails, administration space, ...',
 ];

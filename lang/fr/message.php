@@ -130,4 +130,7 @@ return [
     'project_p15' => 'Serveur web',
     'project_p16' => 'Transformation d\'un raspberry pi en serveur web (apache, port-forwading, domaine, SSL, ...).',
     'project_p17' => 'Créer et mettre en place une infrastructure Big Data (Hadoop, Talend studio, Data lake / Warehouse, Cloudera, Hive, Power Bi, ...).',
+    'project_p18' => 'Août',
+    'project_p19' => 'Tennis club de Pacy',
+    'project_p20' => 'Création sur-mesure du nouveau site du TCP. Ajout de nouvelles fonctionnalités : compte utilisateur, inscription en ligne, mails, espace d\'administration, ...',
 ];
