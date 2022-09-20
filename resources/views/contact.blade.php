@@ -4,7 +4,7 @@
     <section class="text-white bg-stone-900 body-font relative">
         <form action="{{ route('send') }}" method="post" id="contact-from">
             {{ csrf_field() }}
-            <div class="animate__animated animate__fadeIn animate__slow container px-5 py-24 mx-auto">
+            <div class="animate__animated animate__fadeIn animate__slow container px-5 py-24 mx-auto min-h-auto">
                 <div class="flex flex-col text-center w-full mb-12">
                     <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4">{{__('message.contact_h1')}}</h1>
                     <p class="lg:w-2/3 mx-auto leading-relaxed text-base">{{__('message.contact_p1')}}<strong>{{__('message.contact_strong1')}}</strong>{{__('message.contact_p2')}}<br>{{__('message.contact_p3')}}<strong>{{__('message.contact_strong2')}}</strong>, <strong>{{__('message.contact_strong3')}}</strong>, <strong>{{__('message.contact_strong4')}}</strong>, <strong>{{__('message.contact_strong5')}}</strong>, <strong>etc</strong>...</p>
