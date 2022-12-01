@@ -50,7 +50,7 @@
                                         </div>
                                         <p class="mb-1 text-white">{{ $project['fr']['description'] }}</p>
                                         @if (isset($project['fr']['link']))
-                                        <a href="{{ $project['fr']['link'] }}" class="text-orange-600 underline">{{ $project['fr']['link'] }}</a>
+                                        <a target="_blank" href="{{ $project['fr']['link'] }}" class="text-orange-600 underline">{{ $project['fr']['link'] }}</a>
                                         @endif
                                         <div class="flex flex-wrap mt-2">
                                             @foreach ($project['fr']['languages'] as $lang)
@@ -80,7 +80,7 @@
                                         </div>
                                         <p class="mb-1 text-white">{{ $project['en']['description'] }}</p>
                                         @if (isset($project['en']['link']))
-                                        <a href="{{ $project['en']['link'] }}" class="text-orange-600 underline">{{ $project['en']['link'] }}</a>
+                                        <a target="_blank" href="{{ $project['en']['link'] }}" class="text-orange-600 underline">{{ $project['en']['link'] }}</a>
                                         @endif
                                         <div class="flex flex-wrap mt-2">
                                             @foreach ($project['en']['languages'] as $lang)

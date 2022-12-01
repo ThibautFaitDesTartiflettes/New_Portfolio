@@ -1,0 +1,306 @@
+{
+    "web": [
+        {
+            "fr": {
+                "name": "Aperita",
+                "description": "Aperita est un site permettant de trouver une recette de cocktail et de rechercher / filtrer les ingrédients disponibles chez soi.",
+                "languages": [
+                    "Laravel",
+                    "Composer",
+                    "Javascript",
+                    "NodeJs",
+                    "TailwindCSS",
+                    "JSON"
+                ],
+                "link": "https://aperita.thibaut-meslin.fr",
+                "date": "Novembre 2022"
+            },
+            "en": {
+                "name": "Aperita",
+                "description": "Aperita is a site that allows you to find a cocktail recipe and to search / filter the ingredients available at home.",
+                "languages": [
+                    "Laravel",
+                    "Composer",
+                    "Javascript",
+                    "NodeJs",
+                    "TailwindCSS",
+                    "JSON"
+                ],
+                "link": "https://aperita.thibaut-meslin.fr",
+                "date": "November 2022"
+            }
+        },
+        {
+            "fr": {
+                "name": "Blog",
+                "description": "Création d'un blog dans le but de partager des projets et tutoriels (interface de gestion, commentaires, etc...)",
+                "languages": [
+                    "Laravel",
+                    "Composer",
+                    "NodeJs",
+                    "TailwindCSS",
+                    "MySQL"
+                ],
+                "link": "https://blog.thibaut-meslin.fr",
+                "date": "Septembre 2022"
+            },
+            "en": {
+                "name": "Blog",
+                "description": "Creation of a blog in order to share projects and tutorials (management interface, comments, etc...)",
+                "languages": [
+                    "Laravel",
+                    "Composer",
+                    "NodeJs",
+                    "TailwindCSS",
+                    "MySQL"
+                ],
+                "link": "https://blog.thibaut-meslin.fr",
+                "date": "September 2022"
+            }
+        },
+        {
+            "fr": {
+                "name": "Tennis club de Pacy",
+                "description": "Création sur-mesure du nouveau site du TCP. Ajout de nouvelles fonctionnalités : compte utilisateur, inscription en ligne, mails, espace d'administration, ...",
+                "languages": ["Laravel", "Composer", "NodeJs", "TailwindCSS"],
+                "date": "Août 2022"
+            },
+            "en": {
+                "name": "Tennis club de Pacy",
+                "description": "Created a custom website for the TCP. Addition of new features : user account, online registration, emails, administration space, ...",
+                "languages": ["Laravel", "Composer", "NodeJs", "TailwindCSS"],
+                "date": "August 2022"
+            }
+        },
+        {
+            "fr": {
+                "name": "Nouveau portfolio",
+                "description": "Nouvelle version de mon portfolio.",
+                "languages": ["Laravel", "Composer", "NodeJs", "TailwindCSS"],
+                "date": "Juin 2022"
+            },
+            "en": {
+                "name": "New portfolio",
+                "description": "Developed a newer version of my portfolio website.",
+                "languages": ["Laravel", "Composer", "NodeJs", "TailwindCSS"],
+                "date": "June 2022"
+            }
+        },
+        {
+            "fr": {
+                "name": "GSBLot",
+                "description": "Gestion des distributions de médicaments entre les productions, les pharmacies et les visiteurs médicaux.",
+                "languages": ["HTML", "CSS", "PHP", "MySQL", "OVH"],
+                "date": "Octobre 2020"
+            },
+            "en": {
+                "name": "GSBLot",
+                "description": "Manage drug distribution between productions, shop and visitors.",
+                "languages": ["HTML", "CSS", "PHP", "MySQL", "OVH"],
+                "date": "October 2020"
+            }
+        },
+        {
+            "fr": {
+                "name": "Repas BTS",
+                "description": "Gestion des commandes de nourriture, consultation et annulation.",
+                "languages": ["HTML", "CSS", "PHP", "MySQL", "OVH"],
+                "date": "Juin 2020"
+            },
+            "en": {
+                "name": "Repas BTS",
+                "description": "Order, consult and cancel your food orders.",
+                "languages": ["HTML", "CSS", "PHP", "MySQL", "OVH"],
+                "date": "June 2020"
+            }
+        },
+        {
+            "fr": {
+                "name": "Impress",
+                "description": "Consultation des traces d'impression. Inclus un outil de gestion des permissions pour les employés.",
+                "languages": ["HTML", "CSS", "PHP", "MySQL"],
+                "date": "Avril 2020"
+            },
+            "en": {
+                "name": "Impress",
+                "description": "Consult the printing traces. Include a permissions management for the staff.",
+                "languages": ["HTML", "CSS", "PHP", "MySQL"],
+                "date": "April 2020"
+            }
+        },
+        {
+            "fr": {
+                "name": "Wordpress",
+                "description": "Création d'un site vitrine pour la MLL (Maison des Ligues de Lorraine).",
+                "languages": ["Wordpress"],
+                "date": "Janvier 2020"
+            },
+            "en": {
+                "name": "Wordpress",
+                "description": "Creating a showcase site for the MLL (Maison des Ligues de Lorraine).",
+                "languages": ["Wordpress"],
+                "date": "January 2020"
+            }
+        }
+    ],
+    "software": [
+        {
+            "fr": {
+                "name": "EasySave",
+                "description": "Sauvegardez vos données localement et cryptez-les. Interface distante permettant de suivre les transferts. Système de logs JSON/XML.",
+                "languages": ["C#"],
+                "date": "Novembre 2022"
+            },
+            "en": {
+                "name": "EasySave",
+                "description": "Save your data locally and encrypt them. Remote interface enable to follow the transfers. JSON/XML log system.",
+                "languages": ["C#"],
+                "date": "November 2022"
+            }
+        },
+        {
+            "fr": {
+                "name": "gesAMM",
+                "description": "Permet la consultation et la modification des différentes étapes de vies des médicaments",
+                "languages": ["C#", "SQLServer"],
+                "date": "Decembre 2020"
+            },
+            "en": {
+                "name": "gesAMM",
+                "description": "Allow management of the medicines from the development to the market.",
+                "languages": ["C#", "SQLServer"],
+                "date": "December 2020"
+            }
+        },
+        {
+            "fr": {
+                "name": "ProSanté",
+                "description": "Consulter / Mettre à jour toutes les données et statistiques de la société GSB",
+                "languages": ["C#", "MySQL"],
+                "date": "Juin 2020"
+            },
+            "en": {
+                "name": "ProSanté",
+                "description": "Consult / Update all data and statistics of the GSB company.",
+                "languages": ["C#", "MySQL"],
+                "date": "June 2020"
+            }
+        },
+        {
+            "fr": {
+                "name": "Digicode",
+                "description": "Digicode avec log Excel",
+                "languages": ["C#", "Excel"],
+                "date": "Janvier 2020"
+            },
+            "en": {
+                "name": "Digicode",
+                "description": "Digicode with excel log.",
+                "languages": ["C#", "Excel"],
+                "date": "January 2020"
+            }
+        }
+    ],
+    "networking": [
+        {
+            "fr": {
+                "name": "Serveur web",
+                "description": "Transformation d'un raspberry pi en serveur web (apache, port-forwading, domaine, SSL, ...).",
+                "languages": ["RaspberryPi", "Apache", "LetsEncrypt", "OVH"],
+                "date": "Juin 2022"
+            },
+            "en": {
+                "name": "Web server",
+                "description": "Transformation of a raspberry pi into a web server (apache, port-forwading, domain, SSL, ...).",
+                "languages": ["RaspberryPi", "Apache", "LetsEncrypt", "OVH"],
+                "date": "June 2022"
+            }
+        },
+        {
+            "fr": {
+                "name": "Admin-sys",
+                "description": "Création de toute l'infrastructure réseau d'une société (DMZ, LAN, Firewall, AD/DS, DNS, ...).",
+                "languages": ["VmWare"],
+                "date": "Octobre 2022"
+            },
+            "en": {
+                "name": "Admin-sys",
+                "description": "Create the all infrastructure for a company (DMZ, LAN, Firewall, AD/DS, DNS, ...).",
+                "languages": ["VmWare"],
+                "date": "October 2022"
+            }
+        },
+        {
+            "fr": {
+                "name": "Normandie presse",
+                "description": "Déployer et utiliser une application de gestion de dépendances et de tickets (GLPI, OcsInventory).",
+                "languages": [],
+                "date": "Decembre 2020"
+            },
+            "en": {
+                "name": "Normandie presse",
+                "description": "Install and use a dependency management tool in a company context (GLPI, OcsInventory).",
+                "languages": [],
+                "date": "December 2020"
+            }
+        },
+        {
+            "fr": {
+                "name": "Equipement",
+                "description": "Rechercher et organiser la distribution et le management de PC au meilleur coût (maquette réseau utilisant packet tracer).",
+                "languages": [],
+                "date": "Octobre 2019"
+            },
+            "en": {
+                "name": "Equipement",
+                "description": "Research and organize the distribution and management of PC's at the best cost (network model using packet tracer).",
+                "languages": [],
+                "date": "October 2019"
+            }
+        }
+    ],
+    "others": [
+        {
+            "fr": {
+                "name": "Algorithmique avancé",
+                "description": "Problème du VRP avec plusieurs méthaheuristiques (colonie de fourmis, génétique, force brute).",
+                "languages": ["Python"],
+                "date": "Juillet 2022"
+            },
+            "en": {
+                "name": "Advanced algorithm",
+                "description": "VRP problem with metaheuristics (ant colony, genetic, brute force).",
+                "languages": ["Python"],
+                "date": "july 2022"
+            }
+        },
+        {
+            "fr": {
+                "name": "Big Data",
+                "description": "Créer et mettre en place une infrastructure Big Data (Hadoop, Talend studio, Data lake / Warehouse, Cloudera, Hive, Power Bi, ...).",
+                "languages": ["Hadoop", "Hive", "PostgreSQL"],
+                "date": "Mai 2022"
+            },
+            "en": {
+                "name": "Big Data",
+                "description": "Create and implement a Big Data infrastructure (Hadoop, Talend studio, Data lake / Warehouse, Cloudera, Hive, Power Bi, ...).",
+                "languages": ["Hadoop", "Hive", "PowerBi", "PostgreSQL"],
+                "date": "Mai 2022"
+            }
+        },
+        {
+            "fr": {
+                "name": "Gsb vistat",
+                "description": "Effectuer des statistiques dans une base de données et les exporter en CSV.",
+                "languages": ["MySQL", "Excel"],
+                "date": "Sweptembre 2019"
+            },
+            "en": {
+                "name": "Gsb vistat",
+                "description": "Making statistics from a database and export to a CSV.",
+                "languages": ["MySQL", "Excel"],
+                "date": "September 2019"
+            }
+        }
+    ]
+}
