@@ -49,7 +49,10 @@
                                             <p aria-label="Article" class="inline-block text-2xl font-bold leading-5 text-white transition-colors duration-200 hover:text-deep-purple-accent-400">{{ $project['fr']['name'] }}</p>
                                         </div>
                                         <p class="mb-1 text-white">{{ $project['fr']['description'] }}</p>
-                                        <div class="flex flex-wrap">
+                                        @if (isset($project['fr']['link']))
+                                        <a href="{{ $project['fr']['link'] }}" class="text-orange-600 underline">{{ $project['fr']['link'] }}</a>
+                                        @endif
+                                        <div class="flex flex-wrap mt-2">
                                             @foreach ($project['fr']['languages'] as $lang)
                                                 <div class="w-8 h-8 bg-stone-700 rounded-lg p-1 mr-1 mt-1">
                                                     <img src="img/svg/programming_lang/{{ strtolower($lang) }}.svg" alt="{{ $lang }}">
@@ -62,7 +65,7 @@
                                 <div class="flex p-5 rounded border-2 border-stone-400">
                                     <div class="pt-1 mr-6 text-center">
                                         <div class="px-2 pb-1 mb-1 border-b border-orange-600">
-                                            <p class="text-sm text-blue-gray-700">{{ substr($project['en']['date'], 0 , 3) }}</p>
+                                            <p class="text-sm text-blue-gray-700">{{ substr($project['fr']['date'], 0 , 3) }}</p>
                                         </div>
                                         <div class="px-2">
                                             <p class="text-lg font-bold">{{ substr($project['en']['date'], strlen($project['en']['date']) - 4, 4) }}</p>
@@ -76,7 +79,10 @@
                                             <p aria-label="Article" class="inline-block text-2xl font-bold leading-5 text-white transition-colors duration-200 hover:text-deep-purple-accent-400">{{ $project['en']['name'] }}</p>
                                         </div>
                                         <p class="mb-1 text-white">{{ $project['en']['description'] }}</p>
-                                        <div class="flex flex-wrap">
+                                        @if (isset($project['en']['link']))
+                                        <a href="{{ $project['en']['link'] }}" class="text-orange-600 underline">{{ $project['en']['link'] }}</a>
+                                        @endif
+                                        <div class="flex flex-wrap mt-2">
                                             @foreach ($project['en']['languages'] as $lang)
                                                 <div class="w-8 h-8 bg-stone-700 rounded-lg p-1 mr-1 mt-1">
                                                     <img src="img/svg/programming_lang/{{ strtolower($lang) }}.svg" alt="{{ $lang }}">
