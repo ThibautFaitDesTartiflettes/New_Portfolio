@@ -62,13 +62,15 @@
             "fr": {
                 "name": "Tennis club de Pacy",
                 "description": "Création sur-mesure du nouveau site du TCP. Ajout de nouvelles fonctionnalités : compte utilisateur, inscription en ligne, mails, espace d'administration, ...",
-                "languages": ["Laravel", "Composer", "NodeJs", "TailwindCSS"],
+                "languages": ["Laravel", "Composer", "NodeJs", "TailwindCSS", "OVH"],
+                "link": "https:/tcpacy.fr",
                 "date": "Août 2022"
             },
             "en": {
                 "name": "Tennis club de Pacy",
                 "description": "Created a custom website for the TCP. Addition of new features : user account, online registration, emails, administration space, ...",
-                "languages": ["Laravel", "Composer", "NodeJs", "TailwindCSS"],
+                "languages": ["Laravel", "Composer", "NodeJs", "TailwindCSS", "OVH"],
+                "link": "https://tcpacy.fr",
                 "date": "August 2022"
             }
         },
@@ -76,13 +78,13 @@
             "fr": {
                 "name": "Nouveau portfolio",
                 "description": "Nouvelle version de mon portfolio.",
-                "languages": ["Laravel", "Composer", "NodeJs", "TailwindCSS"],
+                "languages": ["Laravel", "Composer", "NodeJs", "TailwindCSS", "JSON"],
                 "date": "Juin 2022"
             },
             "en": {
                 "name": "New portfolio",
                 "description": "Developed a newer version of my portfolio website.",
-                "languages": ["Laravel", "Composer", "NodeJs", "TailwindCSS"],
+                "languages": ["Laravel", "Composer", "NodeJs", "TailwindCSS", "JSON"],
                 "date": "June 2022"
             }
         },
@@ -293,7 +295,7 @@
                 "name": "Gsb vistat",
                 "description": "Effectuer des statistiques dans une base de données et les exporter en CSV.",
                 "languages": ["MySQL", "Excel"],
-                "date": "Sweptembre 2019"
+                "date": "Septembre 2019"
             },
             "en": {
                 "name": "Gsb vistat",

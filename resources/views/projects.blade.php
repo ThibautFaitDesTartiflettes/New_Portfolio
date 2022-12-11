@@ -35,7 +35,7 @@
                                 <div class="flex p-5 rounded border-2 border-stone-400">
                                     <div class="pt-1 mr-6 text-center">
                                         <div class="px-2 pb-1 mb-1 border-b border-orange-600">
-                                            <p class="text-sm text-blue-gray-700">{{ substr($project['fr']['date'], 0 , 3) }}</p>
+                                            <p class="text-sm text-blue-gray-700">{{ (strpos($project['fr']['date'], 'Août') === 0) ? 'Aoû' : substr($project['fr']['date'], 0 , 3) }}</p>
                                         </div>
                                         <div class="px-2">
                                             <p class="text-lg font-bold">{{ substr($project['fr']['date'], strlen($project['fr']['date']) - 4, 4) }}</p>
@@ -65,7 +65,7 @@
                                 <div class="flex p-5 rounded border-2 border-stone-400">
                                     <div class="pt-1 mr-6 text-center">
                                         <div class="px-2 pb-1 mb-1 border-b border-orange-600">
-                                            <p class="text-sm text-blue-gray-700">{{ substr($project['fr']['date'], 0 , 3) }}</p>
+                                            <p class="text-sm text-blue-gray-700">{{ substr($project['en']['date'], 0 , 3) }}</p>
                                         </div>
                                         <div class="px-2">
                                             <p class="text-lg font-bold">{{ substr($project['en']['date'], strlen($project['en']['date']) - 4, 4) }}</p>
@@ -104,7 +104,7 @@
                                 <div class="flex p-5 rounded border-2 border-stone-400">
                                     <div class="pt-1 mr-6 text-center">
                                         <div class="px-2 pb-1 mb-1 border-b border-orange-600">
-                                            <p class="text-sm text-blue-gray-700">{{ substr($project['fr']['date'], 0 , 3) }}</p>
+                                            <p class="text-sm text-blue-gray-700">{{ (strpos($project['fr']['date'], 'Août') === 0) ? 'Aoû' : substr($project['fr']['date'], 0 , 3) }}</p>
                                         </div>
                                         <div class="px-2">
                                             <p class="text-lg font-bold">{{ substr($project['fr']['date'], strlen($project['fr']['date']) - 4, 4) }}</p>
@@ -167,7 +167,7 @@
                                 <div class="flex p-5 rounded border-2 border-stone-400">
                                     <div class="pt-1 mr-6 text-center">
                                         <div class="px-2 pb-1 mb-1 border-b border-orange-600">
-                                            <p class="text-sm text-blue-gray-700">{{ substr($project['fr']['date'], 0 , 3) }}</p>
+                                            <p class="text-sm text-blue-gray-700">{{ (strpos($project['fr']['date'], 'Août') === 0) ? 'Aoû' : substr($project['fr']['date'], 0 , 3) }}</p>
                                         </div>
                                         <div class="px-2">
                                             <p class="text-lg font-bold">{{ substr($project['fr']['date'], strlen($project['fr']['date']) - 4, 4) }}</p>
@@ -230,7 +230,7 @@
                                 <div class="flex p-5 rounded border-2 border-stone-400">
                                     <div class="pt-1 mr-6 text-center">
                                         <div class="px-2 pb-1 mb-1 border-b border-orange-600">
-                                            <p class="text-sm text-blue-gray-700">{{ substr($project['fr']['date'], 0 , 3) }}</p>
+                                            <p class="text-sm text-blue-gray-700">{{ (strpos($project['fr']['date'], 'Août') === 0) ? 'Aoû' : substr($project['fr']['date'], 0 , 3) }}</p>
                                         </div>
                                         <div class="px-2">
                                             <p class="text-lg font-bold">{{ substr($project['fr']['date'], strlen($project['fr']['date']) - 4, 4) }}</p>
