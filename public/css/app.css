@@ -482,11 +482,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 .-m-2 {
   margin: -0.5rem;
 }
-.m-\[20px\] {
-  margin: 20px;
-}
 .m-2 {
   margin: 0.5rem;
+}
+.m-\[20px\] {
+  margin: 20px;
 }
 .m-1 {
   margin: 0.25rem;
@@ -573,9 +573,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 .mt-5 {
   margin-top: 1.25rem;
-}
-.mt-24 {
-  margin-top: 6rem;
 }
 .mb-5 {
   margin-bottom: 1.25rem;
@@ -706,6 +703,21 @@ Ensure the default browser behavior of the `hidden` attribute.
 .max-w-sm {
   max-width: 24rem;
 }
+.scale-125 {
+  --tw-scale-x: 1.25;
+  --tw-scale-y: 1.25;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+.scale-100 {
+  --tw-scale-x: 1;
+  --tw-scale-y: 1;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+.scale-110 {
+  --tw-scale-x: 1.1;
+  --tw-scale-y: 1.1;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
 .cursor-pointer {
   cursor: pointer;
 }
@@ -833,9 +845,17 @@ Ensure the default browser behavior of the `hidden` attribute.
 .fill-current {
   fill: currentColor;
 }
+.object-contain {
+  -o-object-fit: contain;
+     object-fit: contain;
+}
 .object-cover {
   -o-object-fit: cover;
      object-fit: cover;
+}
+.object-fill {
+  -o-object-fit: fill;
+     object-fit: fill;
 }
 .object-center {
   -o-object-position: center;
@@ -920,6 +940,12 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 .pb-1 {
   padding-bottom: 0.25rem;
+}
+.pr-5 {
+  padding-right: 1.25rem;
+}
+.pl-5 {
+  padding-left: 1.25rem;
 }
 .text-center {
   text-align: center;
@@ -1247,6 +1273,11 @@ body{
   .sm\:text-3xl {
     font-size: 1.875rem;
     line-height: 2.25rem;
+  }
+
+  .sm\:text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
   }
 
   .sm\:leading-none {

@@ -100,6 +100,10 @@ return [
     I teach them the fundamentals of the game, the rules of the game, tactical & technical points and give them some tips. 
     My main goal is to improve the players\' skills and to make them more competitive. I also want them to have fun while playing. 
     I\'m teaching on the weekend with an average of 7 hours per week.',
+    'intern_p7' => ' | September 2022 - February 2023',
+    'intern_p8' => 'Hired to carry out a proof of concept on the EcoStruxure Building Operation (EBO) solution. The aim was to see if it was possible to integrate the access control hardware provided by ICT into the company\'s solution. The plugin was entirely realized in C++ using the API provided by ICT. The internship was carried out in Sweden in the city of Lund, entirely speaking English. I lived in the country during the whole internship.',
+    'intern_p9' => '  | January 2023 - February 2023',
+    'intern_p10' => 'I had the chance to teach at the tennis club I was taking lessons at when I was in Sweden. This experience showed that I was able to coach children and adults in English and give them technical and tactical advice. I taught 2-3 times a week for several hours. Working in English has allowed me to improve my communication skills and learn more english tennis-specific vocabulary.',
 
     'legal_h1' => 'LEGAL NOTICE',
     'legal_i1' => 'In accordance with the provisions of law n° 2004-575 of 21 June 2004 for confidence in the digital economy, 
