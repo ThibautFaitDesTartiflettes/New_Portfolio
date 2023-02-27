@@ -8,7 +8,7 @@
                     <div class="animate__animated animate__fadeInLeft animate__slow ml-5 max-w-xl mb-6">
                         <h1 class="max-w-lg mb-6 font-sans text-3xl font-bold tracking-tight sm:text-4xl sm:leading-none">It's-a me <font color="#ea580c">Thibaut</font> !</h1>
                         <p class="mb-8 leading-relaxed">
-                        {{__('message.about_p1')}}<strong>Thibaut Meslin</strong>{{__('message.about_p2')}}<strong>20</strong>{{__('message.about_p3')}}
+                        {{__('message.about_p1')}}<strong>Thibaut Meslin</strong>{{__('message.about_p2')}}<strong>{{ date_diff(date_create('2001-11-02'), date_create())->format('%y') }}</strong>{{__('message.about_p3')}}
                         {{__('message.about_p4')}}<strong>{{__('message.about_strong1')}}</strong>{{__('message.about_p5')}}<strong>{{__('message.about_strong2')}}</strong>{{__('message.about_p6')}}
                         {{__('message.about_p7')}}<strong>{{__('message.about_strong3')}}</strong>{{__('message.about_p8')}}<strong>{{__('message.about_strong4')}}</strong>{{__('message.about_p9')}}
                         {{__('message.about_p10')}}<strong>{{__('message.about_strong5')}}</strong>{{__('message.about_p11')}}
@@ -61,6 +61,12 @@
                                 <img class="mx-auto w-2/4" src="img/svg/programming_lang/c_sharp.svg" alt="C_SHARP">
                                 <div class="py-1 text-center">
                                     <span class="text-sm">C#</span>
+                                </div>
+                            </div>
+                            <div class="w-1/4 bg-stone-800 rounded-lg m-4">
+                                <img class="mx-auto w-2/4 scale-150" src="img/svg/programming_lang/c-plus-plus.svg" alt="C++">
+                                <div class="py-1 text-center">
+                                    <span class="text-sm">C++</span>
                                 </div>
                             </div>
                             <div class="w-1/4 bg-stone-800 rounded-lg m-4">

@@ -63,7 +63,7 @@ return [
     'about_h2' => 'Spoken ',
     'about_font2' => 'languages',
     'about_li1' => 'French : Mother tongue',
-    'about_li2' => 'English : Fluent (TOEIC : 875)',
+    'about_li2' => 'English : Fluent (TOEIC : 920)',
     'about_li3' => 'Spanish : B2',
     'about_h3' => 'My ',
     'about_button1' => 'Download it!',

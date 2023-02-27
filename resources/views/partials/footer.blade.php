@@ -4,7 +4,7 @@
             <span class="ml-3 text-xl">Thibaut Meslin</span>
         </a>
         <a href="{{ route('legal-notice') }}">
-            <p class="text-sm text-white sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">© 2022 ThibautMeslin</p>
+            <p class="text-sm text-white sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">© {{ date("Y") }} - ThibautMeslin</p>
         </a>
         <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
             <a target="_blank" class="m-1 text-white cursor-pointer hover:text-orange-600 hover:underline transition duration-300 ease-in-out" href="https://github.com/ThibautFaitDesTartiflettes">

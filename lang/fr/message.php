@@ -63,7 +63,7 @@ return [
     'about_h2' => 'Mes ',
     'about_font2' => 'langues parlées',
     'about_li1' => 'Français : Natif',
-    'about_li2' => 'Anglais : Courant (TOEIC : 875)',
+    'about_li2' => 'Anglais : Courant (TOEIC : 920)',
     'about_li3' => 'Espagnol : B2',
     'about_h3' => 'Mon ',
     'about_button1' => 'Téléchargez le !',
