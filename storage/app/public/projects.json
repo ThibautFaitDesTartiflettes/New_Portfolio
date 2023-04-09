@@ -264,6 +264,35 @@
     "others": [
         {
             "fr": {
+                "name": "Intelligence artificielle",
+                "description": "Création d'une intelligence artificielle capable de prédire le départ d'un employé. Utilisation et comparaison (accuracy, recall, f1-score) de 3 modèles d'IA: Régression logistique, Random Forest et Decision Tree.",
+                "languages": ["Python", "Jupyter"],
+                "date": "Mars 2023"
+            },
+            "en": {
+                "name": "Artificial intelligence",
+                "description": "Creation of an artificial intelligence able to predict the departure of an employee. Use and comparison (accuracy, recall, f1-score) of 3 AI models: Logistic regression, Random Forest and Decision Tree.",
+                "languages": ["Python", "Jupyter"],
+                "date": "March 2022"
+            }
+        },
+        {
+            "fr": {
+                "name": "Recherche et Innovation",
+                "description": "Démarche de création d'une entreprise en réalisant tous les différents canvas et études (BMC, VPC, Méthode des 6 chapeaux, Veilles, ...).",
+                "languages": [],
+                "date": "Mars 2023"
+            },
+            "en": {
+                "name": "Research and Innovation",
+                "description": "Creation of a company by doing all the different canvas and studies (BMC, VPC, Six hats method, Watch, ...).",
+                "languages": [],
+                "date": "March 2022"
+            }
+        },
+        {
+            
+            "fr": {
                 "name": "Algorithmique avancé",
                 "description": "Problème du VRP avec plusieurs méthaheuristiques (colonie de fourmis, génétique, force brute).",
                 "languages": ["Python"],
