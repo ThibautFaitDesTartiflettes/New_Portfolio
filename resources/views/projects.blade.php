@@ -236,6 +236,10 @@
                                 <p aria-label="Article" class="inline-block text-2xl font-bold leading-5 text-white transition-colors duration-200 hover:text-deep-purple-accent-400">{{ $project['fr']['name'] }}</p>
                             </div>
                             <p class="mb-1 text-white">{{ $project['fr']['description'] }}</p>
+                            @if (isset($project['fr']['link']))
+                            <a href="{{ $project['fr']['link'] }}" class="text-orange-600 underline">Ouvrir le document</a>
+                            @endif
+                            @if (!is_null($project['fr']['languages']))
                             <div class="flex flex-wrap">
                                 @foreach ($project['fr']['languages'] as $lang)
                                 <div class="w-8 h-8 bg-stone-700 rounded-lg p-1 mr-1 mt-1">
@@ -243,6 +247,7 @@
                                 </div>
                                 @endforeach
                             </div>
+                            @endif
                         </div>
                     </div>
                     @else
@@ -263,6 +268,10 @@
                                 <p aria-label="Article" class="inline-block text-2xl font-bold leading-5 text-white transition-colors duration-200 hover:text-deep-purple-accent-400">{{ $project['en']['name'] }}</p>
                             </div>
                             <p class="mb-1 text-white">{{ $project['en']['description'] }}</p>
+                            @if (isset($project['en']['link']))
+                            <a href="{{ $project['en']['link'] }}" class="text-orange-600 underline">Open the document</a>
+                            @endif
+                            @if (!is_null($project['en']['languages']))
                             <div class="flex flex-wrap">
                                 @foreach ($project['en']['languages'] as $lang)
                                 <div class="w-8 h-8 bg-stone-700 rounded-lg p-1 mr-1 mt-1">
@@ -270,6 +279,7 @@
                                 </div>
                                 @endforeach
                             </div>
+                            @endif
                         </div>
                     </div>
                     @endif

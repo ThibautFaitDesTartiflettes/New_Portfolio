@@ -264,6 +264,52 @@
     "others": [
         {
             "fr": {
+                "name": "Recherche",
+                "description": "Rédaction d'un article scientifique en groupe sur le thème de l'UX/UI et de la prise de décision. Le but est de voir s'il est possible de pousser un humain à prendre une décision sur un site internet",
+                "languages": [],
+                "link": "documents/Article_recherche_final.pdf",
+                "date": "Juin 2023"
+            },
+            "en": {
+                "name": "Research",
+                "description": "Writing a scientific article in group on the theme of UX/UI and decision making. The goal is to see if it is possible to push a human to make a decision on a website.",
+                "languages": [],
+                "link": "documents/Article_recherche_final.pdf",
+                "date": "June 2023"
+            }
+        },
+        {
+            "fr": {
+                "name": "ADS",
+                "description": "Rédaction d'un article scientifique sur le thème de l'optimisation et des drones de livraisons. Le but est de comparer différents algorithmes évolutionnaires et de voir lequel est le plus performant pour quel type de problème.",
+                "languages": [],
+                "link": "documents/ADS_Drone_Optimisation_TM.pdf",
+                "date": "Mai 2023"
+            },
+            "en": {
+                "name": "ADS",
+                "description": "Writing a scientific article on the theme of optimization and delivery drones. The goal is to compare different evolutionary algorithms and see which one is the most efficient for which type of problem.",
+                "languages": [],
+                "link": "documents/ADS_Drone_Optimisation_TM.pdf",
+                "date": "May 2023"
+            }
+        },
+        {
+            "fr": {
+                "name": "Encolleuse3D",
+                "description": "Projet avec une réelle démarche ingénieur. Création d'une machine capable de coller des capots de téléphone (calculs, conception, tests, ...).",
+                "languages": [],
+                "date": "Mai 2023"
+            },
+            "en": {
+                "name": "Encolleuse3D",
+                "description": "Project with a real engineer approach. Creation of a machine capable of gluing phone covers (calculations, design, tests, ...).",
+                "languages": [],
+                "date": "May 2023"
+            }
+        },
+        {
+            "fr": {
                 "name": "Intelligence artificielle",
                 "description": "Création d'une intelligence artificielle capable de prédire le départ d'un employé. Utilisation et comparaison (accuracy, recall, f1-score) de 3 modèles d'IA: Régression logistique, Random Forest et Decision Tree.",
                 "languages": ["Python", "Jupyter"],
@@ -273,7 +319,7 @@
                 "name": "Artificial intelligence",
                 "description": "Creation of an artificial intelligence able to predict the departure of an employee. Use and comparison (accuracy, recall, f1-score) of 3 AI models: Logistic regression, Random Forest and Decision Tree.",
                 "languages": ["Python", "Jupyter"],
-                "date": "March 2022"
+                "date": "March 2023"
             }
         },
         {
@@ -287,7 +333,7 @@
                 "name": "Research and Innovation",
                 "description": "Creation of a company by doing all the different canvas and studies (BMC, VPC, Six hats method, Watch, ...).",
                 "languages": [],
-                "date": "March 2022"
+                "date": "March 2023"
             }
         },
         {
