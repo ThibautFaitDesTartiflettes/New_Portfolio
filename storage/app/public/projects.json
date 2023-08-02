@@ -2,6 +2,40 @@
     "web": [
         {
             "fr": {
+                "name": "RapidoResto",
+                "description": "RapidoResto est un site type UberEats, développé avec une approche microservices, permettant de commander des plats à emporter ou en livraison. Il est possible de créer un compte (JWT), de commander, de payer et de suivre sa commande et bien plus ! Le projet est scalable via NGINX et Docker.",
+                "languages": [
+                    "HTML",
+                    "CSS",
+                    "Javascript",
+                    "NodeJs",
+                    "VueJs",
+                    "Docker",
+                    "NGINX",
+                    "MariaDB",
+                    "MongoDB"
+                ],
+                "date": "Août 2023"
+            },
+            "en": {
+                "name": "RapidoResto",
+                "description": "RapidoResto is a site like UberEats, microservices oriented, that allows you to order take-out or delivery meals. It is possible to create an account (JWT), order, pay and track your order and much more! The project is scalable via NGINX and Docker.",
+                "languages": [
+                    "HTML",
+                    "CSS",
+                    "Javascript",
+                    "NodeJs",
+                    "VueJs",
+                    "Docker",
+                    "NGINX",
+                    "MariaDB",
+                    "MongoDB"
+                ],
+                "date": "August 2023"
+            }
+        },
+        {
+            "fr": {
                 "name": "Aperita",
                 "description": "Aperita est un site permettant de trouver une recette de cocktail et de rechercher / filtrer les ingrédients disponibles chez soi.",
                 "languages": [
@@ -348,7 +382,7 @@
                 "name": "Advanced algorithm",
                 "description": "VRP problem with metaheuristics (ant colony, genetic, brute force).",
                 "languages": ["Python"],
-                "date": "july 2022"
+                "date": "July 2022"
             }
         },
         {
